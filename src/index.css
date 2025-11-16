@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+  --font-family: "Inter", sans-serif;
+  --font-second-family: "Roboto", sans-serif;
+  --breakpoint-lgg: 63.0625rem; /* 1009px */
+  --breakpoint-mdd: 58.8125rem; /* 941px */
+  --breakpoint-mddd: 58.75rem; /* 940px */
+}
+html {
+  scroll-behavior: smooth;
+}
