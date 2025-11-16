@@ -5,6 +5,7 @@ import Topsales from "../assets/images/Topsales.png.png";
 import feshn3110 from "../assets/images/feshn3110.png.png";
 import hobbi2110 from "../assets/images/hobbi2110.png.png";
 import smart2010 from "../assets/images/smart2010.png.png";
+import Group2 from "../assets/images/Group2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +46,25 @@ const Header = () => {
           </button>
 
           <div className="flex items-center gap-1">
-            <svg
+       
+           <img src={Link} alt="" className="sm:block hidden"/>
+           <img src={Group2} alt="" className="sm:hidden block"/>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <img src={SVG} alt="" />
+            <span className="font-medium text-sm leading-[286%] text-center text-[#1f2026] font-family">
+              Русский
+            </span>
+          </div>
+        </div>
+
+        {isMenuOpen && (
+          <div className="md:hidden absolute w-full z-999 bg-[#e2dede] border-b border-gray-200 pb-4">
+            <div className="px-4 pt-4">
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center gap-1">
+                       <svg
               width="20"
               height="20"
               viewBox="0 0 20 20"
@@ -59,7 +78,7 @@ const Header = () => {
                 fill="#1F2026"
               />
             </svg>
-            <span className="font-medium text-sm leading-[171%] text-black font-family">
+                    <span className="font-medium text-sm leading-[171%] text-black font-family">
               Ташкент
             </span>
             <svg
@@ -76,20 +95,7 @@ const Header = () => {
                 fill="black"
               />
             </svg>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <img src={SVG} alt="" />
-            <span className="font-medium text-sm leading-[286%] text-center text-[#1f2026] font-family">
-              Русский
-            </span>
-          </div>
-        </div>
-
-        {isMenuOpen && (
-          <div className="md:hidden absolute w-full z-999 bg-[#e2dede] border-b border-gray-200 pb-4">
-            <div className="px-4 pt-4">
-              <div className="flex flex-col space-y-4">
+               </div>
                 <a
                   href="#"
                   className="font-medium text-sm text-[#7f4dff] font-family"
