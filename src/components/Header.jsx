@@ -355,7 +355,9 @@ const Header = () => {
 
           <div className="flex max-w-[1240px] m-auto flex-wrap gap-4 w-full items-center justify-center lgg:justify-between px-6 py-4">
             <div className="flex items-center gap-6">
-              <img src={Link} alt="" />
+              <a href="/">
+                <img src={Link} alt="" />
+              </a>
               <button className="flex transition-transform cursor-pointer duration-200 hover:scale-110 items-center gap-2 px-4 py-2 bg-[#e5e5ff] rounded-[4px] font-medium text-sm leading-[129%] tracking-[0.01em] text-center text-[#7f4dff] font-family">
                 <div className="flex flex-col items-center">
                   <div className=" w-[13px] h-0.5  rounded-[2px_2px_0_0] border-t-2 border-t-[#7f4dff] border-solid"></div>
