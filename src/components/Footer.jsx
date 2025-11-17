@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-medium text-sm leading-[136%] text-[#1f2026] font-second-family mb-3">
               Пользователям
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-medium text-sm leading-[136%] text-[#1f2026] font-second-family mb-3">
               Для предпринимателей
@@ -90,7 +90,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-medium text-sm leading-[136%] text-[#1f2026] font-second-family mb-3">
               Скачать приложение
@@ -178,7 +178,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-4 border-t-[rgba(54,55,64,0.2)] border-t border-solid">
           <div className="space-y-3 mb-4">
             <a
@@ -385,17 +385,32 @@ const Footer = () => {
 
             <div className="font-normal text-[11px] leading-[127%] text-[#7e818c] font-second-family">
               ©2025© ООО «UZUM MARKET». ИНН 309376127. Все права защищены
-                      </div>
-                      <a
-        href="#top"
-        className="w-[70px] h-[70px] fixed bottom-8 right-8  rounded-full flex cursor-pointer items-center justify-center transition-colors"
-      >
-        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M53 27C53 41.359 41.359 53 27 53C12.641 53 1 41.359 1 27C1 12.641 12.641 1 27 1C41.359 1 53 12.641 53 27Z" fill="#7F4DFF" />
-  <path d="M27 54C12.112 54 0 41.888 0 27C0 12.112 12.112 0 27 0C41.888 0 54 12.112 54 27C54 41.888 41.888 54 27 54ZM27 2C13.215 2 2 13.215 2 27C2 40.785 13.215 52 27 52C40.785 52 52 40.785 52 27C52 13.215 40.785 2 27 2Z" fill="white" />
-  <path d="M39 32.706C38.744 32.706 38.488 32.608 38.293 32.413L27 21.12L15.707 32.413C15.316 32.804 14.684 32.804 14.293 32.413C13.902 32.022 13.902 31.39 14.293 30.999L25.791 19.501C26.457 18.835 27.543 18.835 28.209 19.501L39.707 30.999C40.098 31.39 40.098 32.022 39.707 32.413C39.512 32.608 39.256 32.706 39 32.706Z" fill="white" />
-</svg>
-      </a>
+            </div>
+            <a
+              href="#top"
+              className="w-[70px] h-[70px] fixed bottom-8 right-8  rounded-full flex cursor-pointer items-center justify-center transition-colors"
+            >
+              <svg
+                width="54"
+                height="54"
+                viewBox="0 0 54 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M53 27C53 41.359 41.359 53 27 53C12.641 53 1 41.359 1 27C1 12.641 12.641 1 27 1C41.359 1 53 12.641 53 27Z"
+                  fill="#7F4DFF"
+                />
+                <path
+                  d="M27 54C12.112 54 0 41.888 0 27C0 12.112 12.112 0 27 0C41.888 0 54 12.112 54 27C54 41.888 41.888 54 27 54ZM27 2C13.215 2 2 13.215 2 27C2 40.785 13.215 52 27 52C40.785 52 52 40.785 52 27C52 13.215 40.785 2 27 2Z"
+                  fill="white"
+                />
+                <path
+                  d="M39 32.706C38.744 32.706 38.488 32.608 38.293 32.413L27 21.12L15.707 32.413C15.316 32.804 14.684 32.804 14.293 32.413C13.902 32.022 13.902 31.39 14.293 30.999L25.791 19.501C26.457 18.835 27.543 18.835 28.209 19.501L39.707 30.999C40.098 31.39 40.098 32.022 39.707 32.413C39.512 32.608 39.256 32.706 39 32.706Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
